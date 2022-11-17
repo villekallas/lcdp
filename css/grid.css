@@ -52,14 +52,43 @@ header{
 #quotemain{
   grid-column: 1 / -1;
   grid-row: 12 / auto;
-  margin-left: auto;
-  margin-right: auto;
+  
 }
 
 
-@media only screen and (max-width: 1000px){
+@media only screen and (max-width: 400px){
   header{
     grid-column: 1/-1;
-    grid-row: auto;
+    grid-row: 1/4;
+  }
+
+  #quotemain{
+    grid-column: 1 / -1;
+    grid-row: 5 / auto;
+    
+  }
+
+  #navhome{
+    grid-column: 1/2;
+    grid-row: 4/5
+  }
+
+  #navstory{
+    grid-column: 2/3;
+    grid-row: 4/5
+  }
+
+  #navcharacter{
+    grid-column: 3/5;
+    grid-row: 4/5
+  }
+
+    #navom{
+    grid-column: 5/6;
+    grid-row: 4/5
+  }
+
+  #textstory{
+    grid-column: 1 / -1;
   }
 }

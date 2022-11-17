@@ -65,3 +65,21 @@ h1{
 #textstory{
   text-align: center;
 }
+
+#quotemain{
+  width: 100vw;
+  height: auto;
+}
+
+@media only screen and (max-width: 400px){
+  .nav{
+    background-color: gray;
+    font-size: 1.3rem;
+    text-align: center;
+  }
+
+  #textstory{
+    padding: 1px;
+    margin: 1px;
+  }
+}
